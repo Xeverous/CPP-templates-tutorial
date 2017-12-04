@@ -6,6 +6,11 @@ Ever wondered how C++ templates work or how to use/write them? Then this is the 
 
 I have created this repository to provide easy to understand explanation and examples. While cppreference.com has complete documentation, there aren't that many examples and the webpage intends to have very technical-like language which can be hard to understand.
 
+Note - the following guide assumes you know C++ at some level, especially:
+- value types (lvalue and rvalue is enough)
+- constant expressions, usage of keyword `const`
+- OOP stuff (abstraction, inheritance, polymorphism)
+
 Contents
 - intro (please read)
 - function templates
@@ -13,13 +18,15 @@ Contents
 - class templates
 - template full specialization, template partial specialization
 - non-type templates, dependent names
-- `<type_traits>`, `constexpr` and `static_assert`
 - templates of templates (yes, they exist)
+- (since C++11) `<type_traits>`, `constexpr` and `static_assert`
 - (since C++11) lambda expressions
 - (since C++11) variadic templates (`...`) and perfect forwarding (`Args&&...`)
+- (since C++14) enhanced `constexpr`
 - (since C++14) generic lambda expressions
 - (since C++14) alias templates (aka templated `typedef`)
 - (since C++14) variable templates
+- (since C++17) `if constexpr`
 - (since C++17) fold expressions (`0 + ... + args`)
 - (since C++20) concepts (constrained templates)
 - CRTP (example of static polymorphism)
