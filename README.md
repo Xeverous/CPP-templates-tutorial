@@ -15,7 +15,9 @@ Contents
 - non-type templates, dependent names
 - `<type_traits>`, `constexpr` and `static_assert`
 - templates of templates (yes, they exist)
+- (since C++11) lambda expressions
 - (since C++11) variadic templates (`...`) and perfect forwarding (`Args&&...`)
+- (since C++14) generic lambda expressions
 - (since C++14) alias templates (aka templated `typedef`)
 - (since C++14) variable templates
 - (since C++17) fold expressions (`0 + ... + args`)
@@ -30,8 +32,8 @@ Contents
   - lambda traits
   - containers
     - vector
-	- single-linked list
-	- simple smart pointer with unique ownership
+    - single-linked list
+    - simple smart pointer with unique ownership
   - bit pattern scanner
   - sample small ET library
   - lazy initialization
