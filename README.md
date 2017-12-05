@@ -4,7 +4,7 @@
 
 Ever wondered how C++ templates work or how to use/write them? Then this is the right place you came to.
 
-I have created this repository to provide easy to understand explanation and examples. While cppreference.com has complete documentation, there aren't that many examples and the webpage intends to have very technical-like language which can be hard to understand.
+I have created this repository to provide easy to understand explanation and examples. While cppreference.com has complete documentation, there aren't that many examples and the webpage intends to have very technical-like language which can be hard to understand. Also it's a nice exercise for me to check if I learned everything correctly - contributions welcome!
 
 Note - the following guide assumes you know C++ at some level, especially:
 - value types (lvalue and rvalue is enough)
@@ -18,6 +18,7 @@ Contents
 - class templates
 - template full specialization, template partial specialization
 - non-type templates, dependent names
+- leading and trailing return type
 - templates of templates (yes, they exist)
 - (since C++11) `<type_traits>`, `constexpr` and `static_assert`
 - (since C++11) lambda expressions
